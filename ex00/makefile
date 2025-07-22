@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/07/22 13:34:16 by hali-mah          #+#    #+#              #
-#    Updated: 2025/07/22 13:34:40 by hali-mah         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 NAME = ex00
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++17
@@ -33,5 +21,6 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
 
 .PHONY: all clean fclean re
