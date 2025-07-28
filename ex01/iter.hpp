@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 13:37:48 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/07/22 13:46:27 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/07/28 14:47:15 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,4 @@ void iter(T* array, int l, F function)
     }
 }
 
-void printNumber(int n)
-{
-    std::cout << n << " ";
-}
-
-void printString(std::string str)
-{
-    std::cout << str << " ";
-}
 #endif
