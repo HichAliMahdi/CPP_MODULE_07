@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 13:25:37 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/07/22 13:29:13 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/07/28 14:54:24 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define WHATEVER_HPP
 
 template <typename T>
-
 void    swap(T& a, T& b)
 {
     T temp = a;
