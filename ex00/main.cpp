@@ -6,7 +6,7 @@
 /*   By: hali-mah <hali-mah@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 13:29:44 by hali-mah          #+#    #+#             */
-/*   Updated: 2025/07/22 13:33:55 by hali-mah         ###   ########.fr       */
+/*   Updated: 2025/07/29 10:05:26 by hali-mah         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,21 @@ int main(void)
     int a = 2;
     int b = 3;
     ::swap(a, b);
+    float e = 3.14;
+    float f = 51.364;
+    double g = 0.0000000000003;
+    double h = 0.0000005500004;
+    ::swap(e, f);
+    ::swap(g, h);
     std::cout << "a = " << a << ", b = " << b << std::endl;
+    std::cout << "e = " << e << ", f = " << f << std::endl;
+    std::cout << "g = " << g << ", h = " << h << std::endl;
     std::cout << "min(a, b) = " << ::min(a, b) << std::endl;
     std::cout << "max(a, b) = " << ::max(a, b) << std::endl;
+    std::cout << "min(e, f) = " << ::min(e, f) << std::endl;
+    std::cout << "max(e, f) = " << ::max(e, f) << std::endl;
+    std::cout << "min(g, h) = " << ::min(g, h) << std::endl;
+    std::cout << "max(g, h) = " << ::max(g, h) << std::endl;
     std::string c = "chaine1";
     std::string d = "chaine2";
     ::swap(c, d);
